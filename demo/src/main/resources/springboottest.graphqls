@@ -1,8 +1,7 @@
-
-type Query{
+type Query {
 	allBooks : [BookType]
 }
-type BookType{
-id: String
-Name:String
+type BookType {
+    id : String
+    name : String
 }
