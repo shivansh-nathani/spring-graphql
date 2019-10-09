@@ -5,3 +5,13 @@ type BookType {
     id : String
     name : String
 }
+
+
+type Mutation {
+	addBook(book: Book) : [BookType]
+}
+
+input Book {
+    id : String
+    name : String
+}

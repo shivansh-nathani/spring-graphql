@@ -20,5 +20,11 @@ public class BookRepositoryImplem implements BookRepository{
 
         return this.book;
     }
+    @Override
+    public List<BookType> addBook(BookType b){
+    	book.add(b);
+    	return book;
+    }
+ 
 
 }

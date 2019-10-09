@@ -21,6 +21,10 @@ public class BookType {
         this.id = id;
         this.name = name;
     }
+    public BookType()
+    {
+    	
+    }
 
 
 }

@@ -8,6 +8,7 @@ import java.util.List;
 public interface BookRepository {
 
     List<BookType> getBooks();
+    List<BookType> addBook(BookType b);
 
 
 }
