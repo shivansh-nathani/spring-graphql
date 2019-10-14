@@ -9,6 +9,8 @@ type BookType {
 
 type Mutation {
 	addBook(book: Book) : [BookType]
+	deleteBook(id:String) : Boolean
+	updateBook(book : Book) : Boolean
 }
 
 input Book {

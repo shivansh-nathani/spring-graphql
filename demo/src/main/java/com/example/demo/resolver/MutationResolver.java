@@ -29,4 +29,12 @@ public class MutationResolver implements GraphQLMutationResolver{
 		
 
 	}
+	public Boolean deleteBook(String id)
+	{
+		return this.bookrep.deleteBook( id);
+	}
+	public Boolean updateBook(Book book)
+	{
+		return this.bookrep.updateBook(book);
+	}
 }
